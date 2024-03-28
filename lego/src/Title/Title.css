@@ -1,0 +1,65 @@
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPicture {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 390px;
+}
+.mainTitle {
+    background-color: black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin: 20px;
+
+}
+
+.mainTitle h1 {
+    font-size: 58px;
+    margin-bottom: -40px;
+    margin-top: 0px;
+}
+.mainTitle h2 {
+    font-size: 50px;
+    margin-bottom: -35px;
+}
+.mainTitle h3 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.mainPicButtons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.buttonPic1 {
+    background-color: rgb(244, 15, 15); 
+    color: white;
+    left: 20px;
+    top: 10px;
+    width: 40%;
+    border-style: none;
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.buttonPic2 {
+    background-color: rgb(72, 238, 100); 
+    color: black;
+    left: 20px;
+    top: 10px;
+    width: 40%;
+    border-style: none;
+    padding: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}

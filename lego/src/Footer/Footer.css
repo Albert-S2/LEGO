@@ -1,0 +1,38 @@
+.footerMain {
+    background-color: #FEF5E7;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0px;
+    
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    color: black;
+}
+.socialMedia {
+    text-align: left;
+}
+.socialMediaList {
+    list-style: none;
+    text-align: left;
+    
+}
+.contact {
+    text-align: right;
+}
+.contact p {
+    font-weight: bold;
+}
+
+.lastButton {
+    background-color: rgb(236, 9, 160); 
+    color: white;
+    left: 20px;
+    top: 10px;
+    width: 80%;
+    border-style: none;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}

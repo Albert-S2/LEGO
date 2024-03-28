@@ -1,0 +1,41 @@
+.headerContainer {
+    background-color: #FEF5E7;
+    color: black;
+    border-radius: 20px 20px 0px 0px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+.headerContainer h6 {
+    font-size: 14px;
+}
+.headerButton {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    max-width: 5px;
+}
+.headerButtonIcon {
+    width: 30px;
+}
+.menuLista a {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.menuList {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height: 2.0;
+}
+
+.menuOpened {
+
+}

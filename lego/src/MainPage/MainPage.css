@@ -1,0 +1,21 @@
+.mainPage {
+    padding-top: 30px;
+}
+
+.titleMain {
+    font-size: 25px;
+}
+
+.mainPagePic {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.textMain {
+    text-align: justify;
+    margin: 20px;
+  }
