@@ -10,12 +10,16 @@
 }
 .headerContainer h6 {
     font-size: 14px;
+    
+
+
 }
 .headerButton {
     background-color: transparent;
     border-style: none;
     cursor: pointer;
     max-width: 5px;
+   
 }
 .headerButtonIcon {
     width: 30px;
@@ -26,6 +30,7 @@
     text-decoration: none;
     color: black;
     font-size: 15px;
+    
 }
 
 .menuList {
@@ -36,6 +41,52 @@
     line-height: 2.0;
 }
 
-.menuOpened {
-
+@media screen and (min-width: 1024px) {
+    * {
+      width: 1024px; 
+      border-radius: 0px 0px 0px 0px;
+    }
+    .headerContainer {
+        background-color: #FEF5E7;
+        color: black;
+        border-radius: 0px;
+        display: grid;
+        grid-template-columns: 80% 10%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        position: relative;
+    
+    }
+    .headerContainer h6 {
+        font-size: 14px;
+    }
+    .headerButton {
+        background-color: transparent;
+        cursor: pointer;
+        max-width: 5px;
+    }
+    .headerButtonIcon {
+        width: 30px;
+    }
+    .menuLista a {
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        
+    }
+    
+    .menuList {
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        line-height: 2.0;
+        grid-template-columns: 80% 10%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
 }

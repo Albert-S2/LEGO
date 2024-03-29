@@ -63,3 +63,52 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 1024px) {
+    * {
+      width: 1024px; 
+      background-color: #FEF5E7;
+    }
+
+    body {
+        text-align: center;
+      }
+
+    .mainPicture {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 600px;
+    }
+
+    .mainTitle h1 {
+        font-size: 58px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        background-color: black;
+    }
+    .mainTitle h2 {
+        font-size: 50px;
+        margin-bottom: 4px;
+        background-color: black;
+    }
+    .mainTitle h3 {
+        font-size: 40px;
+        margin-bottom: 5px;
+        background-color: black;
+    }
+    .mainPicButtons {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30px;
+        border-style: none;
+        background-color: black;
+        margin: 0px;
+    }
+    .mainTitle {
+        background-color: black;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        margin: 0px;
+    }
+}

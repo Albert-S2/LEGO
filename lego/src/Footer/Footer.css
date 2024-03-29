@@ -36,3 +36,59 @@
     cursor: pointer;
 
 }
+
+@media screen and (min-width: 1024px) {
+  
+    .footerMain {
+        background-color: #FEF5E7;
+        border-radius: 0px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        color: black;
+        position: relative;
+        padding-top: 20px;
+    }
+    .media {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .socialMedia {
+        text-align: center;
+        margin: 0px;
+        padding: 20px;
+        font-weight: bold;
+    }
+    .socialMediaList {
+        list-style: none;
+        text-align: center;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0px;
+        align-items: center;
+        color: rgb(223, 105, 105);
+    }
+    .email {
+        color: rgb(223, 105, 105);
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    
+    .lastButton {
+        background-color: rgb(236, 9, 160); 
+        color: white;
+        width: 50%;
+        border-style: none;
+        border-radius: 20px;
+        padding: 3px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+}

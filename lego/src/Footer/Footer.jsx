@@ -8,13 +8,13 @@ export default function Footer() {
   return (
     <>
       <div className='footerMain'>
-        <div>
-          <p ClassName="socialMedia">Social Media</p>
+        <div className='media'>
+          <p ClassName="socialMedia"><b>Social Media</b></p>
           <ul className="socialMediaList">{listItems}</ul>
         </div>
         <div ClassName="contact">
-          <p>Contact</p>
-          <a>email@address.com<br /></a>
+          <p><b>Contact<br /></b></p>
+          <p className="email">email@address.com<br /></p>
           <button className="lastButton" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
   Back to the top
 </button>
