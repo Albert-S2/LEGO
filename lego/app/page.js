@@ -1,4 +1,3 @@
-
 import "./page.css";
 import Header from '../src/Header/Header'
 import Footer from  "../src/Footer/Footer"
@@ -24,7 +23,7 @@ export default function Home() {
 
         <MainPage className="textMain" title={"Gurney Halleck & Baron Vladimir Harkonnen"} img={"./GurneyAndBaron Large.jpeg"} text1={"Gurney Halleck is a skilled warrior and loyal mentor to Paul Atreides known for his expertise in combat and his unwavering dedication to the Atreides cause. With his sharp wit and deep loyalty, Gurney serves as both a trusted advisor and a formidable ally in the complex political landscape of the Imperium."} text2={"Baron Vladimir Harkonnen is known for his immense wealth, cunning intellect, and ruthless pursuit of power. As the head of House Harkonnen, he schemes to overthrow House Atreides and seize control of the valuable spice melange, embodying the darker side of the political intrigue that drives the narrative of the Dune universe."}/>
         </div>
-        <CommentSection />
+        {/* <CommentSection /> */}
 
         <Footer />
 
