@@ -2,6 +2,7 @@
 .titleContainer {
     display: flex;
     flex-direction: column;
+    background-color: #FEF5E7;
 }
 
 .mainPicture {
@@ -9,13 +10,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    width: 390px;
+    width: 100%;
+    margin-bottom: 0px;
 }
 .mainTitle {
     background-color: black;
     border-top-style: solid;
     border-bottom-style: solid;
-    margin: 20px;
 
 }
 
@@ -23,6 +24,7 @@
     font-size: 58px;
     margin-bottom: -40px;
     margin-top: 0px;
+    
 }
 .mainTitle h2 {
     font-size: 50px;
@@ -38,6 +40,8 @@
     justify-content: space-around;
     padding-top: 5px;
     padding-bottom: 30px;
+    background-color: black;
+    margin-top: -5px;
 }
 
 .buttonPic1 {
@@ -65,37 +69,36 @@
 }
 
 @media screen and (min-width: 1024px) {
-    * {
-      width: 1024px; 
-      background-color: #FEF5E7;
-    }
+    
 
     body {
         text-align: center;
+        width: 1024px; 
+        background-color: #FEF5E7;
       }
 
     .mainPicture {
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 600px;
+        width: 50%;
+        margin-top: 5px;
     }
 
     .mainTitle h1 {
         font-size: 58px;
         margin-bottom: 0px;
         margin-top: 0px;
-        background-color: black;
     }
     .mainTitle h2 {
         font-size: 50px;
         margin-bottom: 4px;
-        background-color: black;
+       
     }
     .mainTitle h3 {
         font-size: 40px;
         margin-bottom: 5px;
-        background-color: black;
+        
     }
     .mainPicButtons {
         display: flex;
@@ -106,9 +109,7 @@
         margin: 0px;
     }
     .mainTitle {
-        background-color: black;
         border-top-style: solid;
         border-bottom-style: solid;
-        margin: 0px;
     }
 }

@@ -1,6 +1,7 @@
 import "./page.css";
-import Header from '../srcDune/Header/Header'
-import Footer from  "../srcDune/Footer/Footer"
+import Header from '../../srcDune/Header/Header'
+import Footer from  '../../srcDune/Footer/Footer'
+import Title from '../../srcDune/Title/Title'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
 
 
         <Header />
-
+        
         <Footer />
 
       </div>

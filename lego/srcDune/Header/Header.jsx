@@ -15,7 +15,9 @@ export default function Header() {
 
   return (
     <div className="headerContainer">
-      <h6>LEGO 10327</h6>
+      <h6>
+        <img className="legoLogo" src="../My Lego Page.png"/>
+        </h6>
       <button className="headerButton" onClick={toggleMenu}>
           <img className="headerButtonIcon" src={buttonImageSrc} alt="Menu Icon" />
       </button>
@@ -40,8 +42,9 @@ export default function Header() {
 const websites = {
   home: "./",
   subwebsites: [
-    { name: "Subwebsite 1", link: "link1" },
-    { name: "Subwebsite 2", link: "link2" },
-    { name: "Subwebsite 3", link: "link3" }
+    { name: "LEGO 10327 Dune Atreides Royal Ornithopter", link: "./LegoDuneApp"},
+    { name: "LEGO 76989 Horizon Forbidden West: Tallneck", link: "./LegoHorizonApp" },
+    { name: "Subwebsite 2", link: "link3" },
+    { name: "Subwebsite 3", link: "link4" }
   ]
 };
